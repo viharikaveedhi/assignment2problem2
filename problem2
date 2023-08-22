@@ -1,0 +1,8 @@
+#Write a Python program to print a dictionary whose keys should be the alphabet from a-z and the value should be corresponding ASCII values
+
+
+
+dictionary = dict()
+for i in range(ord("a"), ord("z")+1):
+    dictionary[chr(i)] = i
+print("OUTPUT :", dictionary)
