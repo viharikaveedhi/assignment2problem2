@@ -1,0 +1,9 @@
+def sort(tuples):                     #for sorting(  in ascending order) the numbers inside the tuples
+    return sorted(tuples, key=last)
+
+def last(numbers):                   #to get them return for arranging them in sorted manner
+    return numbers[-1]
+  
+list= [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+print("Sorted:",sort(list))
+
